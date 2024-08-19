@@ -17,7 +17,7 @@ public class WeatherAPI {
 
 //        System.out.println(AA);
 
-        String apiKey = "5be9032245c70a4daa2b914fc3b2e13b"; // Replace with your actual API key
+        
         String cityId = airportCityMap.get(AA);; // Replace with the desired city ID
 
         try {
