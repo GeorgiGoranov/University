@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ViewBookingController">
+   <children>
+       <TextField fx:id="filterField" layoutX="175.0" layoutY="66.0" prefHeight="25.0" prefWidth="200.0" promptText="Search" AnchorPane.leftAnchor="175.0" AnchorPane.rightAnchor="175.0" AnchorPane.topAnchor="66.0" />
+      <TableView fx:id="tableBookings" layoutX="139.0" layoutY="100.0" onMouseClicked="#getItems" prefHeight="200.0" prefWidth="317.0">
+        <columns>
+          <TableColumn fx:id="colID" prefWidth="75.0" text="BookingID" />
+            <TableColumn fx:id="colCustomerID" prefWidth="122.0" text="CustomerID" />
+            <TableColumn fx:id="colBookingDate" prefWidth="119.99993896484375" text="Date Of Booking" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

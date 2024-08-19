@@ -1,0 +1,12 @@
+Sq. Feet (in 000s),Garage,Bedrooms,Price (in $000s)
+1000,none,2,65
+1100,none,2,73
+1150,one-car,2,85
+1400,none,3,87
+1700,one-car,3,98
+1800,one-car,4,105
+1900,none,3,95
+1900,one-car,4,125
+2100,two-car,4,125
+2100,two-car,4,137
+2300,two-car,4,150

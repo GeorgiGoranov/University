@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: persistence.FlightStorageServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.918 s <<< FAILURE! - in persistence.FlightStorageServiceImplTest
+persistence.FlightStorageServiceImplTest.insertIntoRecurringFlightsFromFlightData_shouldInsertRecordsIntoFlightData  Time elapsed: 0.435 s  <<< FAILURE!
+org.mockito.exceptions.verification.WantedButNotInvoked: 
+
+Wanted but not invoked:
+connection.prepareStatement(
+    "SELECT dateOfDeparture, dateOfArrival FROM flightdata WHERE flightid = ?"
+);
+-> at persistence_module@1.0-SNAPSHOT/persistence.FlightStorageServiceImplTest.insertIntoRecurringFlightsFromFlightData_shouldInsertRecordsIntoFlightData(FlightStorageServiceImplTest.java:67)
+Actually, there were zero interactions with this mock.
+
+	at persistence_module@1.0-SNAPSHOT/persistence.FlightStorageServiceImplTest.insertIntoRecurringFlightsFromFlightData_shouldInsertRecordsIntoFlightData(FlightStorageServiceImplTest.java:67)
+

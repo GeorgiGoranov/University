@@ -1,0 +1,17 @@
+﻿  ntk_5.4.c
+C:\Users\DulgiqG\Desktop\UNI\year 2\OSCO\VS\ntk_5.4.c(186,2): warning C4047: 'return': 'void *' differs in levels of indirection from 'unsigned int'
+C:\Users\DulgiqG\Desktop\UNI\year 2\OSCO\VS\ntk_5.4.c(198,26): warning C4013: '__readfsdword' undefined; assuming extern returning int
+C:\Users\DulgiqG\Desktop\UNI\year 2\OSCO\VS\ntk_5.4.c(198,47): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\Users\DulgiqG\Desktop\UNI\year 2\OSCO\VS\ntk_5.4.c(207,51): warning C4311: 'type cast': pointer truncation from 'HANDLE' to 'int'
+C:\Users\DulgiqG\Desktop\UNI\year 2\OSCO\VS\ntk_5.4.c(212,9): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type '_task *'
+C:\Users\DulgiqG\Desktop\UNI\year 2\OSCO\VS\ntk_5.4.c(212,9): warning C4313: 'printf': '%x' in format string conflicts with argument 1 of type '_task *'
+C:\Users\DulgiqG\Desktop\UNI\year 2\OSCO\VS\ntk_5.4.c(219,11): warning C4101: 'pID': unreferenced local variable
+C:\Users\DulgiqG\Desktop\UNI\year 2\OSCO\VS\ntk_5.4.c(335,37): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+C:\Users\DulgiqG\Desktop\UNI\year 2\OSCO\VS\ntk_5.4.c(336,38): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+C:\Users\DulgiqG\Desktop\UNI\year 2\OSCO\VS\ntk_5.4.c(336,51): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+  main.c
+  Generating Code...
+C:\Users\DulgiqG\Desktop\UNI\year 2\OSCO\VS\ntk_5.4.c(213,1): warning C4716: 'printTaskCB': must return a value
+C:\Users\DulgiqG\Desktop\UNI\year 2\OSCO\VS\ntk_5.4.c(234,1): warning C4716: 'printTIB': must return a value
+ntk_5.4.obj : error LNK2019: unresolved external symbol __readfsdword referenced in function getTib
+C:\Users\DulgiqG\Desktop\UNI\year 2\OSCO\VS\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe : fatal error LNK1120: 1 unresolved externals

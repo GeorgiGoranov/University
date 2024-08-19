@@ -1,0 +1,7 @@
+﻿  CPU_schegule.c
+C:\Users\DulgiqG\Desktop\UNI\year 2\OSCO\VS\CPU_scheduling_algorithms\CPU_scheduling_algorithms\CPU_schegule.c(12,19): error C2057: expected constant expression
+C:\Users\DulgiqG\Desktop\UNI\year 2\OSCO\VS\CPU_scheduling_algorithms\CPU_scheduling_algorithms\CPU_schegule.c(12,20): error C2466: cannot allocate an array of constant size 0
+C:\Users\DulgiqG\Desktop\UNI\year 2\OSCO\VS\CPU_scheduling_algorithms\CPU_scheduling_algorithms\CPU_schegule.c(12,9): error C2133: 'wait_time': unknown size
+C:\Users\DulgiqG\Desktop\UNI\year 2\OSCO\VS\CPU_scheduling_algorithms\CPU_scheduling_algorithms\CPU_schegule.c(12,40): error C2057: expected constant expression
+C:\Users\DulgiqG\Desktop\UNI\year 2\OSCO\VS\CPU_scheduling_algorithms\CPU_scheduling_algorithms\CPU_schegule.c(12,41): error C2466: cannot allocate an array of constant size 0
+C:\Users\DulgiqG\Desktop\UNI\year 2\OSCO\VS\CPU_scheduling_algorithms\CPU_scheduling_algorithms\CPU_schegule.c(12,23): error C2133: 'turn_around_time': unknown size

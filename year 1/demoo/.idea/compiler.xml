@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Persistence" />
+        <module name="BusinessLogic" />
+        <module name="GUI" />
+        <module name="Assembler" />
+        <module name="DataRecords" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="airlineinformationsystem" target="17" />
+      <module name="Assembler" target="17" />
+      <module name="BusinessLogic" target="17" />
+      <module name="DataRecords" target="17" />
+      <module name="GUI" target="17" />
+      <module name="Persistence" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

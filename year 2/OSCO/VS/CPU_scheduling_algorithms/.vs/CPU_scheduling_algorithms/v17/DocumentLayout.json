@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DulgiqG\\Desktop\\UNI\\year 2\\OSCO\\VS\\CPU_scheduling_algorithms\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3F99DB49-3775-4041-9249-867426D19B8F}|CPU_scheduling_algorithms\\CPU_scheduling_algorithms.vcxproj|C:\\Users\\DulgiqG\\Desktop\\UNI\\year 2\\OSCO\\VS\\CPU_scheduling_algorithms\\CPU_scheduling_algorithms\\CPU_schegule.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3F99DB49-3775-4041-9249-867426D19B8F}|CPU_scheduling_algorithms\\CPU_scheduling_algorithms.vcxproj|solutionrelative:CPU_scheduling_algorithms\\CPU_schegule.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CPU_schegule.c",
+              "DocumentMoniker": "C:\\Users\\DulgiqG\\Desktop\\UNI\\year 2\\OSCO\\VS\\CPU_scheduling_algorithms\\CPU_scheduling_algorithms\\CPU_schegule.c",
+              "RelativeDocumentMoniker": "CPU_scheduling_algorithms\\CPU_schegule.c",
+              "ToolTip": "C:\\Users\\DulgiqG\\Desktop\\UNI\\year 2\\OSCO\\VS\\CPU_scheduling_algorithms\\CPU_scheduling_algorithms\\CPU_schegule.c",
+              "RelativeToolTip": "CPU_scheduling_algorithms\\CPU_schegule.c",
+              "ViewState": "AQIAAMgAAAAAAAAAAAAAwCgBAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-05-16T12:32:59.793Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+.background {
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #ff0000, #0000ff);
+    -fx-background-size: cover;
+}

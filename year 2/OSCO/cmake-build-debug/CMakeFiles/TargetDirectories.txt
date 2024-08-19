@@ -1,0 +1,3 @@
+C:/Users/DulgiqG/Desktop/UNI/year 2/OSCO/cmake-build-debug/CMakeFiles/OSCO.dir
+C:/Users/DulgiqG/Desktop/UNI/year 2/OSCO/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/DulgiqG/Desktop/UNI/year 2/OSCO/cmake-build-debug/CMakeFiles/rebuild_cache.dir

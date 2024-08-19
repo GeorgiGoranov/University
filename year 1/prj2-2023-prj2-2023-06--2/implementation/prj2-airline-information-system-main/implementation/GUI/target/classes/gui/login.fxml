@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500" prefWidth="1000" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Login">
+   <Label layoutX="464.0" layoutY="96.0" text="Log in" />
+            <Button fx:id="employeeButton"  onAction="#switchToViewFlights" layoutX="431.0" layoutY="224.0" prefHeight="25.0" prefWidth="99.0" text="Sales Employee" />
+            <Button fx:id="officerButton" onAction="#switchToViewFlights" layoutX="308.0" layoutY="222.0" prefHeight="25.0" prefWidth="99.0" text="Sales Officer" />
+            <Button fx:id="managerButton" onAction="#switchToViewFlights" layoutX="554.0" layoutY="224.0" prefHeight="25.0" prefWidth="99.0" text="Sales Manager" />
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+</AnchorPane>

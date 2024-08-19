@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxWidth="800.0" minHeight="500.0" minWidth="1000.0" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ManagementBoardController">
+   <children>
+      <TableView fx:id="table_DB" layoutX="150.0" layoutY="50.0" onMouseClicked="#getFlight" prefHeight="200.0" prefWidth="817.0">
+         <columns>
+            <TableColumn fx:id="col_id" prefWidth="61.599979400634766" text="FlightID" />
+            <TableColumn fx:id="col_d" prefWidth="120.0" text="Departure" />
+            <TableColumn fx:id="col_a" prefWidth="120.0" text="Arrival" />
+            <TableColumn fx:id="col_t_d" prefWidth="70.0" text="DepTime" />
+            <TableColumn fx:id="col_t_a" prefWidth="70.0" text="ArrTime" />
+            <TableColumn fx:id="col_d_d" text="DepDate" />
+            <TableColumn fx:id="col_d_a" text="ArrDate" />
+            <TableColumn fx:id="static_discount" prefWidth="70.0" text="s_discount" />
+            <TableColumn fx:id="dynamic_discount" prefWidth="70.0" text="d_discount" />
+            <TableColumn fx:id="priceId" prefWidth="75.0" text="Price" />
+         </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+      <Button fx:id="deleteBtn" layoutX="413.0" layoutY="407.0" mnemonicParsing="false" onAction="#deleteChosenFlight" text="Delete" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="setUpBtn" layoutX="413.0" layoutY="332.0" mnemonicParsing="false" onAction="#createRecurringFlight" text="SetUp" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <TableView fx:id="canceled_table" layoutX="844.0" layoutY="277.0" onMouseClicked="#getPopUp" prefHeight="200.0" prefWidth="123.0">
+        <columns>
+            <TableColumn fx:id="col_id_deleted" prefWidth="75.0" text="ID" />
+          <TableColumn fx:id="col_canceled_id" prefWidth="75.0" text="Canceled " />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+      <TextField fx:id="text_flight_id" layoutX="150.0" layoutY="277.0" prefHeight="25.0" prefWidth="174.0" promptText="Choose Flight" />
+      <TextField fx:id="text_interval" layoutX="150.0" layoutY="400.0" onKeyTyped="#checkInput" prefHeight="25.0" prefWidth="174.0" promptText="Choose Recurring Interval" />
+      <DatePicker fx:id="date_departure_auto" layoutX="150.0" layoutY="316.0" promptText="Choose Flight" />
+      <DatePicker fx:id="date_last_recurrence" layoutX="150.0" layoutY="444.0" promptText="Choose Last Date For Recurrence" />
+      <DatePicker fx:id="date_arrival_auto" layoutX="150.0" layoutY="359.0" promptText="Choose Flight" />
+      <AnchorPane prefHeight="46.0" prefWidth="800.0" style="-fx-background-color: #FFFFFF;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fx:id="exitBtn" fitHeight="24.0" fitWidth="24.0" onMouseClicked="#exitBtn" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="10.0">
+               <image>
+                  <Image url="@images/button.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="burgerM" fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0">
+               <image>
+                  <Image url="@images/burger-bar.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="pane1" opacity="0.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: black;" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <AnchorPane fx:id="pane3" layoutX="10.0" layoutY="10.0" prefHeight="454.0" prefWidth="44.0" style="-fx-background-color: White;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="46.0">
+         <children>
+            <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="44.0" spacing="20.0" AnchorPane.topAnchor="20.0">
+               <children>
+                  <ImageView fitHeight="46.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/airplane.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="46.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/flight.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="46.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/edit-tools.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="46.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/presentation.png" />
+                     </image></ImageView>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="pane2" prefHeight="454.0" prefWidth="117.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="40.0" AnchorPane.topAnchor="46.0">
+         <children>
+            <VBox prefHeight="200.0" prefWidth="123.0" spacing="12.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-13.0" AnchorPane.topAnchor="20.0">
+               <children>
+                  <Button fx:id="createFlightBtn" alignment="BASELINE_LEFT" mnemonicParsing="false" onMouseClicked="#goToCreateFlight" prefHeight="38.0" prefWidth="179.0" style="-fx-background-color: transparent;" text="Create Flight" />
+                  <Button fx:id="searchFlightBtn" alignment="BASELINE_LEFT" mnemonicParsing="false" onMouseClicked="#goToSearchFlight" prefHeight="38.0" prefWidth="179.0" style="-fx-background-color: transparent;" text="Search Flight" />
+                  <Button fx:id="createBookingBtn" alignment="BASELINE_LEFT" mnemonicParsing="false" onMouseClicked="#goToCreateBooking" prefHeight="38.0" prefWidth="179.0" style="-fx-background-color: transparent;" text="Create Booking" />
+                  <Button fx:id="manegmentBoardBtn" alignment="BASELINE_LEFT" mnemonicParsing="false" onMouseClicked="#goToManagementBoard" prefHeight="38.0" prefWidth="179.0" style="-fx-background-color: transparent;" text="Management Board" />
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

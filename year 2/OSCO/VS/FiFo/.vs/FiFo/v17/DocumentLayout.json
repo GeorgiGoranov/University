@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DulgiqG\\Desktop\\UNI\\year 2\\OSCO\\VS\\FiFo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8F630FE7-5A35-4A67-AA28-DFC93E200FF9}|FiFo\\FiFo.vcxproj|C:\\Users\\DulgiqG\\Desktop\\UNI\\year 2\\OSCO\\VS\\FiFo\\FiFo\\FIFO.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F630FE7-5A35-4A67-AA28-DFC93E200FF9}|FiFo\\FiFo.vcxproj|solutionrelative:FiFo\\FIFO.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FIFO.c",
+              "DocumentMoniker": "C:\\Users\\DulgiqG\\Desktop\\UNI\\year 2\\OSCO\\VS\\FiFo\\FiFo\\FIFO.c",
+              "RelativeDocumentMoniker": "FiFo\\FIFO.c",
+              "ToolTip": "C:\\Users\\DulgiqG\\Desktop\\UNI\\year 2\\OSCO\\VS\\FiFo\\FiFo\\FIFO.c*",
+              "RelativeToolTip": "FiFo\\FIFO.c*",
+              "ViewState": "AQIAADsAAAAAAAAAAAAqwGQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-04-12T14:02:36.328Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
